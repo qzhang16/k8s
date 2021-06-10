@@ -12,6 +12,7 @@ app.get('/', (req,res) => {
 		client.set('visits', parseInt(visits) + 1);
 	})
 });
+
 app.listen(9080,() => {
 	console.log('Listening on port 9080');
 });
